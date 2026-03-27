@@ -56,11 +56,9 @@ def _parse_question_types(raw_value: str | None) -> list[QuestionType]:
 async def _extract_uploaded_files(request: Request) -> list[UploadFile]:
     form = await request.form()
     files: list[UploadFile] = []
-
     for item in form.getlist("files"):
         if isinstance(item, UploadFile) and item.filename:
             files.append(item)
-
     return files
 
 
@@ -80,20 +78,12 @@ async def create_generation_job(
     topic: str = Form(...),
     number: int = Form(...),
     question_types: str | None = Form(default="single_choice"),
-    language: str = Form(default="ru"),
-    difficulty: str | None = Form(default=None),
-    audience: str | None = Form(default=None),
-    extra_instructions: str | None = Form(default=None),
 ) -> JobCreateResponse:
     files = await _extract_uploaded_files(request_http)
     request = GenerationRequest(
         topic=topic,
         number=number,
         question_types=_parse_question_types(question_types),
-        language=language,
-        difficulty=difficulty,
-        audience=audience,
-        extra_instructions=extra_instructions,
     )
     job = await job_manager.create_job(request=request, files=files)
     return JobCreateResponse(job_id=job.id, status=job.status, created_at=job.created_at)
@@ -110,20 +100,12 @@ async def generate(
     topic: str = Form(...),
     number: int = Form(...),
     question_types: str | None = Form(default="single_choice"),
-    language: str = Form(default="ru"),
-    difficulty: str | None = Form(default=None),
-    audience: str | None = Form(default=None),
-    extra_instructions: str | None = Form(default=None),
 ) -> JobState:
     files = await _extract_uploaded_files(request_http)
     request = GenerationRequest(
         topic=topic,
         number=number,
         question_types=_parse_question_types(question_types),
-        language=language,
-        difficulty=difficulty,
-        audience=audience,
-        extra_instructions=extra_instructions,
     )
     return await job_manager.generate_now(request=request, files=files)
 
