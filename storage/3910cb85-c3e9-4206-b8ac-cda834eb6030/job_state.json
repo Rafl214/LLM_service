@@ -1,0 +1,93 @@
+{
+  "id": "3910cb85-c3e9-4206-b8ac-cda834eb6030",
+  "status": "finished",
+  "created_at": "2026-03-27T07:59:00.439486",
+  "started_at": "2026-03-27T07:59:00.441525",
+  "finished_at": "2026-03-27T07:59:04.980901",
+  "request": {
+    "topic": "Математический анализ",
+    "number": 2,
+    "question_types": [
+      "single_choice"
+    ]
+  },
+  "files": [],
+  "errors": [],
+  "logs": [
+    "[07:59:00] Задание создано и поставлено в очередь",
+    "[07:59:00] Задание взял worker #1",
+    "[07:59:00] Начата обработка задания",
+    "[07:59:04] Ответ успешно получен и распарсен"
+  ],
+  "result": {
+    "raw_response": "{\n  \"topic\": \"Математический анализ\",\n  \"language\": \"ru\",\n  \"question_count\": 2,\n  \"questions\": [\n    {\n      \"id\": \"q1\",\n      \"type\": \"single_choice\",\n      \"difficulty\": \"easy\",\n      \"question\": \"Чему равна производная функции f(x) = x^2?\",\n      \"options\": [\n        {\n          \"id\": \"A\",\n          \"text\": \"x\"\n        },\n        {\n          \"id\": \"B\",\n          \"text\": \"2x\"\n        },\n        {\n          \"id\": \"C\",\n          \"text\": \"x^2\"\n        },\n        {\n          \"id\": \"D\",\n          \"text\": \"2\"\n        }\n      ],\n      \"correct_answers\": [\n        \"B\"\n      ],\n      \"explanation\": \"По правилу дифференцирования степенной функции производная x^n равна n·x^(n-1). Для x^2 получаем 2x.\",\n      \"source_reference\": \"\",\n      \"metadata\": {}\n    },\n    {\n      \"id\": \"q2\",\n      \"type\": \"single_choice\",\n      \"difficulty\": \"medium\",\n      \"question\": \"Какой из пределов равен 1?\",\n      \"options\": [\n        {\n          \"id\": \"A\",\n          \"text\": \"lim(x→0) sin(x)/x\"\n        },\n        {\n          \"id\": \"B\",\n          \"text\": \"lim(x→0) x/sin(x)\"\n        },\n        {\n          \"id\": \"C\",\n          \"text\": \"lim(x→0) (1 - cos(x))/x\"\n        },\n        {\n          \"id\": \"D\",\n          \"text\": \"lim(x→0) tan(x)\"\n        }\n      ],\n      \"correct_answers\": [\n        \"A\"\n      ],\n      \"explanation\": \"Из известных предельных соотношений lim(x→0) sin(x)/x = 1.\",\n      \"source_reference\": \"\",\n      \"metadata\": {}\n    }\n  ],\n  \"warnings\": []\n}",
+    "parsed_response": {
+      "topic": "Математический анализ",
+      "language": "ru",
+      "question_count": 2,
+      "questions": [
+        {
+          "id": "q1",
+          "type": "single_choice",
+          "difficulty": "easy",
+          "question": "Чему равна производная функции f(x) = x^2?",
+          "options": [
+            {
+              "id": "A",
+              "text": "x"
+            },
+            {
+              "id": "B",
+              "text": "2x"
+            },
+            {
+              "id": "C",
+              "text": "x^2"
+            },
+            {
+              "id": "D",
+              "text": "2"
+            }
+          ],
+          "correct_answers": [
+            "B"
+          ],
+          "explanation": "По правилу дифференцирования степенной функции производная x^n равна n·x^(n-1). Для x^2 получаем 2x.",
+          "source_reference": "",
+          "metadata": {}
+        },
+        {
+          "id": "q2",
+          "type": "single_choice",
+          "difficulty": "medium",
+          "question": "Какой из пределов равен 1?",
+          "options": [
+            {
+              "id": "A",
+              "text": "lim(x→0) sin(x)/x"
+            },
+            {
+              "id": "B",
+              "text": "lim(x→0) x/sin(x)"
+            },
+            {
+              "id": "C",
+              "text": "lim(x→0) (1 - cos(x))/x"
+            },
+            {
+              "id": "D",
+              "text": "lim(x→0) tan(x)"
+            }
+          ],
+          "correct_answers": [
+            "A"
+          ],
+          "explanation": "Из известных предельных соотношений lim(x→0) sin(x)/x = 1.",
+          "source_reference": "",
+          "metadata": {}
+        }
+      ],
+      "warnings": []
+    }
+  }
+}

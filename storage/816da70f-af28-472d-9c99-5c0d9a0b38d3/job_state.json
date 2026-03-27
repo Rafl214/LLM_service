@@ -1,0 +1,366 @@
+{
+  "id": "816da70f-af28-472d-9c99-5c0d9a0b38d3",
+  "status": "finished",
+  "created_at": "2026-03-27T06:53:17.253429",
+  "started_at": "2026-03-27T06:53:17.256470",
+  "finished_at": "2026-03-27T06:53:30.935522",
+  "request": {
+    "topic": "Ìàòåìàòèêà",
+    "number": 10,
+    "question_types": [
+      "single_choice",
+      "multiple_choice"
+    ]
+  },
+  "files": [],
+  "errors": [],
+  "logs": [
+    "[06:53:17] Задание создано и поставлено в очередь",
+    "[06:53:17] Задание взял worker #0",
+    "[06:53:17] Начата обработка задания",
+    "[06:53:30] Ответ успешно получен и распарсен"
+  ],
+  "result": {
+    "raw_response": "{\n  \"topic\": \"Математика\",\n  \"language\": \"ru\",\n  \"question_count\": 10,\n  \"questions\": [\n    {\n      \"id\": \"q1\",\n      \"type\": \"single_choice\",\n      \"difficulty\": \"easy\",\n      \"question\": \"Чему равно 7 + 5?\",\n      \"options\": [\n        {\n          \"id\": \"A\",\n          \"text\": \"11\"\n        },\n        {\n          \"id\": \"B\",\n          \"text\": \"12\"\n        },\n        {\n          \"id\": \"C\",\n          \"text\": \"13\"\n        },\n        {\n          \"id\": \"D\",\n          \"text\": \"14\"\n        }\n      ],\n      \"correct_answers\": [\n        \"B\"\n      ],\n      \"explanation\": \"7 + 5 = 12.\",\n      \"source_reference\": \"Общая математика: арифметика\",\n      \"metadata\": {}\n    },\n    {\n      \"id\": \"q2\",\n      \"type\": \"single_choice\",\n      \"difficulty\": \"easy\",\n      \"question\": \"Чему равно 9 × 3?\",\n      \"options\": [\n        {\n          \"id\": \"A\",\n          \"text\": \"27\"\n        },\n        {\n          \"id\": \"B\",\n          \"text\": \"24\"\n        },\n        {\n          \"id\": \"C\",\n          \"text\": \"21\"\n        },\n        {\n          \"id\": \"D\",\n          \"text\": \"18\"\n        }\n      ],\n      \"correct_answers\": [\n        \"A\"\n      ],\n      \"explanation\": \"9 × 3 = 27.\",\n      \"source_reference\": \"Общая математика: умножение\",\n      \"metadata\": {}\n    },\n    {\n      \"id\": \"q3\",\n      \"type\": \"single_choice\",\n      \"difficulty\": \"easy\",\n      \"question\": \"Какое число является простым?\",\n      \"options\": [\n        {\n          \"id\": \"A\",\n          \"text\": \"9\"\n        },\n        {\n          \"id\": \"B\",\n          \"text\": \"15\"\n        },\n        {\n          \"id\": \"C\",\n          \"text\": \"17\"\n        },\n        {\n          \"id\": \"D\",\n          \"text\": \"21\"\n        }\n      ],\n      \"correct_answers\": [\n        \"C\"\n      ],\n      \"explanation\": \"17 делится только на 1 и на 17, значит, это простое число.\",\n      \"source_reference\": \"Общая математика: простые числа\",\n      \"metadata\": {}\n    },\n    {\n      \"id\": \"q4\",\n      \"type\": \"single_choice\",\n      \"difficulty\": \"medium\",\n      \"question\": \"Чему равен периметр прямоугольника со сторонами 6 см и 4 см?\",\n      \"options\": [\n        {\n          \"id\": \"A\",\n          \"text\": \"10 см\"\n        },\n        {\n          \"id\": \"B\",\n          \"text\": \"20 см\"\n        },\n        {\n          \"id\": \"C\",\n          \"text\": \"24 см\"\n        },\n        {\n          \"id\": \"D\",\n          \"text\": \"12 см\"\n        }\n      ],\n      \"correct_answers\": [\n        \"B\"\n      ],\n      \"explanation\": \"Периметр прямоугольника равен 2 × (6 + 4) = 20 см.\",\n      \"source_reference\": \"Общая математика: геометрия\",\n      \"metadata\": {}\n    },\n    {\n      \"id\": \"q5\",\n      \"type\": \"single_choice\",\n      \"difficulty\": \"medium\",\n      \"question\": \"Какое число является результатом вычисления 3^4?\",\n      \"options\": [\n        {\n          \"id\": \"A\",\n          \"text\": \"12\"\n        },\n        {\n          \"id\": \"B\",\n          \"text\": \"27\"\n        },\n        {\n          \"id\": \"C\",\n          \"text\": \"81\"\n        },\n        {\n          \"id\": \"D\",\n          \"text\": \"64\"\n        }\n      ],\n      \"correct_answers\": [\n        \"C\"\n      ],\n      \"explanation\": \"3^4 = 3 × 3 × 3 × 3 = 81.\",\n      \"source_reference\": \"Общая математика: степени\",\n      \"metadata\": {}\n    },\n    {\n      \"id\": \"q6\",\n      \"type\": \"multiple_choice\",\n      \"difficulty\": \"easy\",\n      \"question\": \"Какие из следующих чисел являются чётными?\",\n      \"options\": [\n        {\n          \"id\": \"A\",\n          \"text\": \"8\"\n        },\n        {\n          \"id\": \"B\",\n          \"text\": \"11\"\n        },\n        {\n          \"id\": \"C\",\n          \"text\": \"14\"\n        },\n        {\n          \"id\": \"D\",\n          \"text\": \"19\"\n        },\n        {\n          \"id\": \"E\",\n          \"text\": \"22\"\n        }\n      ],\n      \"correct_answers\": [\n        \"A\",\n        \"C\",\n        \"E\"\n      ],\n      \"explanation\": \"Чётные числа делятся на 2 без остатка: 8, 14 и 22.\",\n      \"source_reference\": \"Общая математика: чётные и нечётные числа\",\n      \"metadata\": {}\n    },\n    {\n      \"id\": \"q7\",\n      \"type\": \"multiple_choice\",\n      \"difficulty\": \"easy\",\n      \"question\": \"Какие из следующих дробей равны 1/2?\",\n      \"options\": [\n        {\n          \"id\": \"A\",\n          \"text\": \"2/4\"\n        },\n        {\n          \"id\": \"B\",\n          \"text\": \"3/6\"\n        },\n        {\n          \"id\": \"C\",\n          \"text\": \"4/8\"\n        },\n        {\n          \"id\": \"D\",\n          \"text\": \"5/8\"\n        },\n        {\n          \"id\": \"E\",\n          \"text\": \"6/12\"\n        }\n      ],\n      \"correct_answers\": [\n        \"A\",\n        \"B\",\n        \"C\",\n        \"E\"\n      ],\n      \"explanation\": \"Все перечисленные дроби, кроме 5/8, сокращаются до 1/2.\",\n      \"source_reference\": \"Общая математика: дроби\",\n      \"metadata\": {}\n    },\n    {\n      \"id\": \"q8\",\n      \"type\": \"multiple_choice\",\n      \"difficulty\": \"medium\",\n      \"question\": \"Какие из следующих утверждений о треугольнике верны?\",\n      \"options\": [\n        {\n          \"id\": \"A\",\n          \"text\": \"У треугольника три стороны\"\n        },\n        {\n          \"id\": \"B\",\n          \"text\": \"Сумма внутренних углов треугольника равна 180°\"\n        },\n        {\n          \"id\": \"C\",\n          \"text\": \"У треугольника четыре угла\"\n        },\n        {\n          \"id\": \"D\",\n          \"text\": \"Треугольник всегда имеет равные стороны\"\n        },\n        {\n          \"id\": \"E\",\n          \"text\": \"Треугольник — это многоугольник\"\n        }\n      ],\n      \"correct_answers\": [\n        \"A\",\n        \"B\",\n        \"E\"\n      ],\n      \"explanation\": \"Треугольник имеет три стороны, сумма углов равна 180°, и он является многоугольником.\",\n      \"source_reference\": \"Общая математика: геометрия\",\n      \"metadata\": {}\n    },\n    {\n      \"id\": \"q9\",\n      \"type\": \"multiple_choice\",\n      \"difficulty\": \"medium\",\n      \"question\": \"Какие из следующих чисел делятся на 3 без остатка?\",\n      \"options\": [\n        {\n          \"id\": \"A\",\n          \"text\": \"12\"\n        },\n        {\n          \"id\": \"B\",\n          \"text\": \"14\"\n        },\n        {\n          \"id\": \"C\",\n          \"text\": \"18\"\n        },\n        {\n          \"id\": \"D\",\n          \"text\": \"25\"\n        },\n        {\n          \"id\": \"E\",\n          \"text\": \"30\"\n        }\n      ],\n      \"correct_answers\": [\n        \"A\",\n        \"C\",\n        \"E\"\n      ],\n      \"explanation\": \"12, 18 и 30 делятся на 3 без остатка.\",\n      \"source_reference\": \"Общая математика: делимость\",\n      \"metadata\": {}\n    },\n    {\n      \"id\": \"q10\",\n      \"type\": \"multiple_choice\",\n      \"difficulty\": \"hard\",\n      \"question\": \"Какие из следующих выражений равны 16?\",\n      \"options\": [\n        {\n          \"id\": \"A\",\n          \"text\": \"4 × 4\"\n        },\n        {\n          \"id\": \"B\",\n          \"text\": \"20 - 4\"\n        },\n        {\n          \"id\": \"C\",\n          \"text\": \"2^4\"\n        },\n        {\n          \"id\": \"D\",\n          \"text\": \"18 - 1\"\n        },\n        {\n          \"id\": \"E\",\n          \"text\": \"32 / 2\"\n        }\n      ],\n      \"correct_answers\": [\n        \"A\",\n        \"B\",\n        \"C\",\n        \"E\"\n      ],\n      \"explanation\": \"4 × 4 = 16, 20 - 4 = 16, 2^4 = 16, 32 / 2 = 16. Выражение 18 - 1 равно 17.\",\n      \"source_reference\": \"Общая математика: арифметические выражения\",\n      \"metadata\": {}\n    }\n  ],\n  \"warnings\": []\n}",
+    "parsed_response": {
+      "topic": "Математика",
+      "language": "ru",
+      "question_count": 10,
+      "questions": [
+        {
+          "id": "q1",
+          "type": "single_choice",
+          "difficulty": "easy",
+          "question": "Чему равно 7 + 5?",
+          "options": [
+            {
+              "id": "A",
+              "text": "11"
+            },
+            {
+              "id": "B",
+              "text": "12"
+            },
+            {
+              "id": "C",
+              "text": "13"
+            },
+            {
+              "id": "D",
+              "text": "14"
+            }
+          ],
+          "correct_answers": [
+            "B"
+          ],
+          "explanation": "7 + 5 = 12.",
+          "source_reference": "Общая математика: арифметика",
+          "metadata": {}
+        },
+        {
+          "id": "q2",
+          "type": "single_choice",
+          "difficulty": "easy",
+          "question": "Чему равно 9 × 3?",
+          "options": [
+            {
+              "id": "A",
+              "text": "27"
+            },
+            {
+              "id": "B",
+              "text": "24"
+            },
+            {
+              "id": "C",
+              "text": "21"
+            },
+            {
+              "id": "D",
+              "text": "18"
+            }
+          ],
+          "correct_answers": [
+            "A"
+          ],
+          "explanation": "9 × 3 = 27.",
+          "source_reference": "Общая математика: умножение",
+          "metadata": {}
+        },
+        {
+          "id": "q3",
+          "type": "single_choice",
+          "difficulty": "easy",
+          "question": "Какое число является простым?",
+          "options": [
+            {
+              "id": "A",
+              "text": "9"
+            },
+            {
+              "id": "B",
+              "text": "15"
+            },
+            {
+              "id": "C",
+              "text": "17"
+            },
+            {
+              "id": "D",
+              "text": "21"
+            }
+          ],
+          "correct_answers": [
+            "C"
+          ],
+          "explanation": "17 делится только на 1 и на 17, значит, это простое число.",
+          "source_reference": "Общая математика: простые числа",
+          "metadata": {}
+        },
+        {
+          "id": "q4",
+          "type": "single_choice",
+          "difficulty": "medium",
+          "question": "Чему равен периметр прямоугольника со сторонами 6 см и 4 см?",
+          "options": [
+            {
+              "id": "A",
+              "text": "10 см"
+            },
+            {
+              "id": "B",
+              "text": "20 см"
+            },
+            {
+              "id": "C",
+              "text": "24 см"
+            },
+            {
+              "id": "D",
+              "text": "12 см"
+            }
+          ],
+          "correct_answers": [
+            "B"
+          ],
+          "explanation": "Периметр прямоугольника равен 2 × (6 + 4) = 20 см.",
+          "source_reference": "Общая математика: геометрия",
+          "metadata": {}
+        },
+        {
+          "id": "q5",
+          "type": "single_choice",
+          "difficulty": "medium",
+          "question": "Какое число является результатом вычисления 3^4?",
+          "options": [
+            {
+              "id": "A",
+              "text": "12"
+            },
+            {
+              "id": "B",
+              "text": "27"
+            },
+            {
+              "id": "C",
+              "text": "81"
+            },
+            {
+              "id": "D",
+              "text": "64"
+            }
+          ],
+          "correct_answers": [
+            "C"
+          ],
+          "explanation": "3^4 = 3 × 3 × 3 × 3 = 81.",
+          "source_reference": "Общая математика: степени",
+          "metadata": {}
+        },
+        {
+          "id": "q6",
+          "type": "multiple_choice",
+          "difficulty": "easy",
+          "question": "Какие из следующих чисел являются чётными?",
+          "options": [
+            {
+              "id": "A",
+              "text": "8"
+            },
+            {
+              "id": "B",
+              "text": "11"
+            },
+            {
+              "id": "C",
+              "text": "14"
+            },
+            {
+              "id": "D",
+              "text": "19"
+            },
+            {
+              "id": "E",
+              "text": "22"
+            }
+          ],
+          "correct_answers": [
+            "A",
+            "C",
+            "E"
+          ],
+          "explanation": "Чётные числа делятся на 2 без остатка: 8, 14 и 22.",
+          "source_reference": "Общая математика: чётные и нечётные числа",
+          "metadata": {}
+        },
+        {
+          "id": "q7",
+          "type": "multiple_choice",
+          "difficulty": "easy",
+          "question": "Какие из следующих дробей равны 1/2?",
+          "options": [
+            {
+              "id": "A",
+              "text": "2/4"
+            },
+            {
+              "id": "B",
+              "text": "3/6"
+            },
+            {
+              "id": "C",
+              "text": "4/8"
+            },
+            {
+              "id": "D",
+              "text": "5/8"
+            },
+            {
+              "id": "E",
+              "text": "6/12"
+            }
+          ],
+          "correct_answers": [
+            "A",
+            "B",
+            "C",
+            "E"
+          ],
+          "explanation": "Все перечисленные дроби, кроме 5/8, сокращаются до 1/2.",
+          "source_reference": "Общая математика: дроби",
+          "metadata": {}
+        },
+        {
+          "id": "q8",
+          "type": "multiple_choice",
+          "difficulty": "medium",
+          "question": "Какие из следующих утверждений о треугольнике верны?",
+          "options": [
+            {
+              "id": "A",
+              "text": "У треугольника три стороны"
+            },
+            {
+              "id": "B",
+              "text": "Сумма внутренних углов треугольника равна 180°"
+            },
+            {
+              "id": "C",
+              "text": "У треугольника четыре угла"
+            },
+            {
+              "id": "D",
+              "text": "Треугольник всегда имеет равные стороны"
+            },
+            {
+              "id": "E",
+              "text": "Треугольник — это многоугольник"
+            }
+          ],
+          "correct_answers": [
+            "A",
+            "B",
+            "E"
+          ],
+          "explanation": "Треугольник имеет три стороны, сумма углов равна 180°, и он является многоугольником.",
+          "source_reference": "Общая математика: геометрия",
+          "metadata": {}
+        },
+        {
+          "id": "q9",
+          "type": "multiple_choice",
+          "difficulty": "medium",
+          "question": "Какие из следующих чисел делятся на 3 без остатка?",
+          "options": [
+            {
+              "id": "A",
+              "text": "12"
+            },
+            {
+              "id": "B",
+              "text": "14"
+            },
+            {
+              "id": "C",
+              "text": "18"
+            },
+            {
+              "id": "D",
+              "text": "25"
+            },
+            {
+              "id": "E",
+              "text": "30"
+            }
+          ],
+          "correct_answers": [
+            "A",
+            "C",
+            "E"
+          ],
+          "explanation": "12, 18 и 30 делятся на 3 без остатка.",
+          "source_reference": "Общая математика: делимость",
+          "metadata": {}
+        },
+        {
+          "id": "q10",
+          "type": "multiple_choice",
+          "difficulty": "hard",
+          "question": "Какие из следующих выражений равны 16?",
+          "options": [
+            {
+              "id": "A",
+              "text": "4 × 4"
+            },
+            {
+              "id": "B",
+              "text": "20 - 4"
+            },
+            {
+              "id": "C",
+              "text": "2^4"
+            },
+            {
+              "id": "D",
+              "text": "18 - 1"
+            },
+            {
+              "id": "E",
+              "text": "32 / 2"
+            }
+          ],
+          "correct_answers": [
+            "A",
+            "B",
+            "C",
+            "E"
+          ],
+          "explanation": "4 × 4 = 16, 20 - 4 = 16, 2^4 = 16, 32 / 2 = 16. Выражение 18 - 1 равно 17.",
+          "source_reference": "Общая математика: арифметические выражения",
+          "metadata": {}
+        }
+      ],
+      "warnings": []
+    }
+  }
+}
