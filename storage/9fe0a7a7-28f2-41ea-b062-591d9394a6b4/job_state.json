@@ -1,0 +1,30 @@
+{
+  "id": "9fe0a7a7-28f2-41ea-b062-591d9394a6b4",
+  "status": "failed",
+  "created_at": "2026-03-27T05:50:22.758520",
+  "started_at": "2026-03-27T05:50:22.756504",
+  "finished_at": "2026-03-27T05:50:23.620784",
+  "request": {
+    "topic": "math",
+    "number": 10,
+    "question_types": [
+      "single_choice"
+    ],
+    "language": "ru",
+    "difficulty": "",
+    "audience": "",
+    "extra_instructions": ""
+  },
+  "files": [],
+  "errors": [
+    "Error code: 401 - {'error': {'message': 'Incorrect API key provided: pza_FOkF************************xLDd. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}"
+  ],
+  "logs": [
+    "[05:50:22] Начата обработка задания",
+    "[05:50:23] Ошибка: Error code: 401 - {'error': {'message': 'Incorrect API key provided: pza_FOkF************************xLDd. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}"
+  ],
+  "result": {
+    "raw_response": null,
+    "parsed_response": null
+  }
+}

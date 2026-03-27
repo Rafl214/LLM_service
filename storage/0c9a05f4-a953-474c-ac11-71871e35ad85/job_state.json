@@ -1,0 +1,323 @@
+{
+  "id": "0c9a05f4-a953-474c-ac11-71871e35ad85",
+  "status": "finished",
+  "created_at": "2026-03-27T05:51:26.537891",
+  "started_at": "2026-03-27T05:51:26.537891",
+  "finished_at": "2026-03-27T05:51:38.276571",
+  "request": {
+    "topic": "math",
+    "number": 10,
+    "question_types": [
+      "single_choice"
+    ],
+    "language": "ru",
+    "difficulty": "",
+    "audience": "",
+    "extra_instructions": ""
+  },
+  "files": [],
+  "errors": [],
+  "logs": [
+    "[05:51:26] Начата обработка задания",
+    "[05:51:38] Ответ успешно получен и распарсен"
+  ],
+  "result": {
+    "raw_response": "{\n  \"topic\": \"math\",\n  \"language\": \"ru\",\n  \"question_count\": 10,\n  \"questions\": [\n    {\n      \"id\": \"q1\",\n      \"type\": \"single_choice\",\n      \"difficulty\": \"easy\",\n      \"question\": \"Сколько будет 7 + 5?\",\n      \"options\": [\n        {\n          \"id\": \"A\",\n          \"text\": \"11\"\n        },\n        {\n          \"id\": \"B\",\n          \"text\": \"12\"\n        },\n        {\n          \"id\": \"C\",\n          \"text\": \"13\"\n        }\n      ],\n      \"correct_answers\": [\n        \"B\"\n      ],\n      \"explanation\": \"При сложении 7 и 5 получаем 12.\",\n      \"source_reference\": \"\",\n      \"metadata\": {}\n    },\n    {\n      \"id\": \"q2\",\n      \"type\": \"single_choice\",\n      \"difficulty\": \"easy\",\n      \"question\": \"Сколько будет 9 − 4?\",\n      \"options\": [\n        {\n          \"id\": \"A\",\n          \"text\": \"3\"\n        },\n        {\n          \"id\": \"B\",\n          \"text\": \"4\"\n        },\n        {\n          \"id\": \"C\",\n          \"text\": \"5\"\n        },\n        {\n          \"id\": \"D\",\n          \"text\": \"6\"\n        }\n      ],\n      \"correct_answers\": [\n        \"C\"\n      ],\n      \"explanation\": \"9 minus 4 equals 5.\",\n      \"source_reference\": \"\",\n      \"metadata\": {}\n    },\n    {\n      \"id\": \"q3\",\n      \"type\": \"single_choice\",\n      \"difficulty\": \"easy\",\n      \"question\": \"Чему равно произведение 6 × 3?\",\n      \"options\": [\n        {\n          \"id\": \"A\",\n          \"text\": \"9\"\n        },\n        {\n          \"id\": \"B\",\n          \"text\": \"18\"\n        },\n        {\n          \"id\": \"C\",\n          \"text\": \"21\"\n        },\n        {\n          \"id\": \"D\",\n          \"text\": \"16\"\n        }\n      ],\n      \"correct_answers\": [\n        \"B\"\n      ],\n      \"explanation\": \"6 умножить на 3 равно 18.\",\n      \"source_reference\": \"\",\n      \"metadata\": {}\n    },\n    {\n      \"id\": \"q4\",\n      \"type\": \"single_choice\",\n      \"difficulty\": \"easy\",\n      \"question\": \"Какое число является чётным?\",\n      \"options\": [\n        {\n          \"id\": \"A\",\n          \"text\": \"7\"\n        },\n        {\n          \"id\": \"B\",\n          \"text\": \"9\"\n        },\n        {\n          \"id\": \"C\",\n          \"text\": \"12\"\n        },\n        {\n          \"id\": \"D\",\n          \"text\": \"15\"\n        }\n      ],\n      \"correct_answers\": [\n        \"C\"\n      ],\n      \"explanation\": \"Чётные числа делятся на 2 без остатка. 12 — чётное число.\",\n      \"source_reference\": \"\",\n      \"metadata\": {}\n    },\n    {\n      \"id\": \"q5\",\n      \"type\": \"single_choice\",\n      \"difficulty\": \"easy\",\n      \"question\": \"Сколько углов у треугольника?\",\n      \"options\": [\n        {\n          \"id\": \"A\",\n          \"text\": \"2\"\n        },\n        {\n          \"id\": \"B\",\n          \"text\": \"3\"\n        },\n        {\n          \"id\": \"C\",\n          \"text\": \"4\"\n        }\n      ],\n      \"correct_answers\": [\n        \"B\"\n      ],\n      \"explanation\": \"У треугольника всегда 3 угла.\",\n      \"source_reference\": \"\",\n      \"metadata\": {}\n    },\n    {\n      \"id\": \"q6\",\n      \"type\": \"single_choice\",\n      \"difficulty\": \"easy\",\n      \"question\": \"Какое число больше: 14 или 19?\",\n      \"options\": [\n        {\n          \"id\": \"A\",\n          \"text\": \"14\"\n        },\n        {\n          \"id\": \"B\",\n          \"text\": \"19\"\n        },\n        {\n          \"id\": \"C\",\n          \"text\": \"Они равны\"\n        }\n      ],\n      \"correct_answers\": [\n        \"B\"\n      ],\n      \"explanation\": \"19 больше, чем 14.\",\n      \"source_reference\": \"\",\n      \"metadata\": {}\n    },\n    {\n      \"id\": \"q7\",\n      \"type\": \"single_choice\",\n      \"difficulty\": \"easy\",\n      \"question\": \"Чему равно 8 × 2?\",\n      \"options\": [\n        {\n          \"id\": \"A\",\n          \"text\": \"10\"\n        },\n        {\n          \"id\": \"B\",\n          \"text\": \"14\"\n        },\n        {\n          \"id\": \"C\",\n          \"text\": \"16\"\n        },\n        {\n          \"id\": \"D\",\n          \"text\": \"18\"\n        }\n      ],\n      \"correct_answers\": [\n        \"C\"\n      ],\n      \"explanation\": \"8 умножить на 2 равно 16.\",\n      \"source_reference\": \"\",\n      \"metadata\": {}\n    },\n    {\n      \"id\": \"q8\",\n      \"type\": \"single_choice\",\n      \"difficulty\": \"easy\",\n      \"question\": \"Какое число является простым?\",\n      \"options\": [\n        {\n          \"id\": \"A\",\n          \"text\": \"9\"\n        },\n        {\n          \"id\": \"B\",\n          \"text\": \"11\"\n        },\n        {\n          \"id\": \"C\",\n          \"text\": \"15\"\n        },\n        {\n          \"id\": \"D\",\n          \"text\": \"21\"\n        }\n      ],\n      \"correct_answers\": [\n        \"B\"\n      ],\n      \"explanation\": \"Простое число имеет ровно два делителя: 1 и само число. 11 — простое.\",\n      \"source_reference\": \"\",\n      \"metadata\": {}\n    },\n    {\n      \"id\": \"q9\",\n      \"type\": \"single_choice\",\n      \"difficulty\": \"easy\",\n      \"question\": \"Сколько будет 20 ÷ 4?\",\n      \"options\": [\n        {\n          \"id\": \"A\",\n          \"text\": \"4\"\n        },\n        {\n          \"id\": \"B\",\n          \"text\": \"5\"\n        },\n        {\n          \"id\": \"C\",\n          \"text\": \"6\"\n        },\n        {\n          \"id\": \"D\",\n          \"text\": \"8\"\n        }\n      ],\n      \"correct_answers\": [\n        \"B\"\n      ],\n      \"explanation\": \"20 разделить на 4 равно 5.\",\n      \"source_reference\": \"\",\n      \"metadata\": {}\n    },\n    {\n      \"id\": \"q10\",\n      \"type\": \"single_choice\",\n      \"difficulty\": \"easy\",\n      \"question\": \"Сколько минут в одном часе?\",\n      \"options\": [\n        {\n          \"id\": \"A\",\n          \"text\": \"30\"\n        },\n        {\n          \"id\": \"B\",\n          \"text\": \"45\"\n        },\n        {\n          \"id\": \"C\",\n          \"text\": \"60\"\n        },\n        {\n          \"id\": \"D\",\n          \"text\": \"100\"\n        }\n      ],\n      \"correct_answers\": [\n        \"C\"\n      ],\n      \"explanation\": \"В одном часе 60 минут.\",\n      \"source_reference\": \"\",\n      \"metadata\": {}\n    }\n  ],\n  \"warnings\": []\n}",
+    "parsed_response": {
+      "topic": "math",
+      "language": "ru",
+      "question_count": 10,
+      "questions": [
+        {
+          "id": "q1",
+          "type": "single_choice",
+          "difficulty": "easy",
+          "question": "Сколько будет 7 + 5?",
+          "options": [
+            {
+              "id": "A",
+              "text": "11"
+            },
+            {
+              "id": "B",
+              "text": "12"
+            },
+            {
+              "id": "C",
+              "text": "13"
+            }
+          ],
+          "correct_answers": [
+            "B"
+          ],
+          "explanation": "При сложении 7 и 5 получаем 12.",
+          "source_reference": "",
+          "metadata": {}
+        },
+        {
+          "id": "q2",
+          "type": "single_choice",
+          "difficulty": "easy",
+          "question": "Сколько будет 9 − 4?",
+          "options": [
+            {
+              "id": "A",
+              "text": "3"
+            },
+            {
+              "id": "B",
+              "text": "4"
+            },
+            {
+              "id": "C",
+              "text": "5"
+            },
+            {
+              "id": "D",
+              "text": "6"
+            }
+          ],
+          "correct_answers": [
+            "C"
+          ],
+          "explanation": "9 minus 4 equals 5.",
+          "source_reference": "",
+          "metadata": {}
+        },
+        {
+          "id": "q3",
+          "type": "single_choice",
+          "difficulty": "easy",
+          "question": "Чему равно произведение 6 × 3?",
+          "options": [
+            {
+              "id": "A",
+              "text": "9"
+            },
+            {
+              "id": "B",
+              "text": "18"
+            },
+            {
+              "id": "C",
+              "text": "21"
+            },
+            {
+              "id": "D",
+              "text": "16"
+            }
+          ],
+          "correct_answers": [
+            "B"
+          ],
+          "explanation": "6 умножить на 3 равно 18.",
+          "source_reference": "",
+          "metadata": {}
+        },
+        {
+          "id": "q4",
+          "type": "single_choice",
+          "difficulty": "easy",
+          "question": "Какое число является чётным?",
+          "options": [
+            {
+              "id": "A",
+              "text": "7"
+            },
+            {
+              "id": "B",
+              "text": "9"
+            },
+            {
+              "id": "C",
+              "text": "12"
+            },
+            {
+              "id": "D",
+              "text": "15"
+            }
+          ],
+          "correct_answers": [
+            "C"
+          ],
+          "explanation": "Чётные числа делятся на 2 без остатка. 12 — чётное число.",
+          "source_reference": "",
+          "metadata": {}
+        },
+        {
+          "id": "q5",
+          "type": "single_choice",
+          "difficulty": "easy",
+          "question": "Сколько углов у треугольника?",
+          "options": [
+            {
+              "id": "A",
+              "text": "2"
+            },
+            {
+              "id": "B",
+              "text": "3"
+            },
+            {
+              "id": "C",
+              "text": "4"
+            }
+          ],
+          "correct_answers": [
+            "B"
+          ],
+          "explanation": "У треугольника всегда 3 угла.",
+          "source_reference": "",
+          "metadata": {}
+        },
+        {
+          "id": "q6",
+          "type": "single_choice",
+          "difficulty": "easy",
+          "question": "Какое число больше: 14 или 19?",
+          "options": [
+            {
+              "id": "A",
+              "text": "14"
+            },
+            {
+              "id": "B",
+              "text": "19"
+            },
+            {
+              "id": "C",
+              "text": "Они равны"
+            }
+          ],
+          "correct_answers": [
+            "B"
+          ],
+          "explanation": "19 больше, чем 14.",
+          "source_reference": "",
+          "metadata": {}
+        },
+        {
+          "id": "q7",
+          "type": "single_choice",
+          "difficulty": "easy",
+          "question": "Чему равно 8 × 2?",
+          "options": [
+            {
+              "id": "A",
+              "text": "10"
+            },
+            {
+              "id": "B",
+              "text": "14"
+            },
+            {
+              "id": "C",
+              "text": "16"
+            },
+            {
+              "id": "D",
+              "text": "18"
+            }
+          ],
+          "correct_answers": [
+            "C"
+          ],
+          "explanation": "8 умножить на 2 равно 16.",
+          "source_reference": "",
+          "metadata": {}
+        },
+        {
+          "id": "q8",
+          "type": "single_choice",
+          "difficulty": "easy",
+          "question": "Какое число является простым?",
+          "options": [
+            {
+              "id": "A",
+              "text": "9"
+            },
+            {
+              "id": "B",
+              "text": "11"
+            },
+            {
+              "id": "C",
+              "text": "15"
+            },
+            {
+              "id": "D",
+              "text": "21"
+            }
+          ],
+          "correct_answers": [
+            "B"
+          ],
+          "explanation": "Простое число имеет ровно два делителя: 1 и само число. 11 — простое.",
+          "source_reference": "",
+          "metadata": {}
+        },
+        {
+          "id": "q9",
+          "type": "single_choice",
+          "difficulty": "easy",
+          "question": "Сколько будет 20 ÷ 4?",
+          "options": [
+            {
+              "id": "A",
+              "text": "4"
+            },
+            {
+              "id": "B",
+              "text": "5"
+            },
+            {
+              "id": "C",
+              "text": "6"
+            },
+            {
+              "id": "D",
+              "text": "8"
+            }
+          ],
+          "correct_answers": [
+            "B"
+          ],
+          "explanation": "20 разделить на 4 равно 5.",
+          "source_reference": "",
+          "metadata": {}
+        },
+        {
+          "id": "q10",
+          "type": "single_choice",
+          "difficulty": "easy",
+          "question": "Сколько минут в одном часе?",
+          "options": [
+            {
+              "id": "A",
+              "text": "30"
+            },
+            {
+              "id": "B",
+              "text": "45"
+            },
+            {
+              "id": "C",
+              "text": "60"
+            },
+            {
+              "id": "D",
+              "text": "100"
+            }
+          ],
+          "correct_answers": [
+            "C"
+          ],
+          "explanation": "В одном часе 60 минут.",
+          "source_reference": "",
+          "metadata": {}
+        }
+      ],
+      "warnings": []
+    }
+  }
+}
