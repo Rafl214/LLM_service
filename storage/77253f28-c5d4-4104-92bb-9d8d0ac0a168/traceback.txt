@@ -1,0 +1,19 @@
+Traceback (most recent call last):
+  File "C:\Users\Илья\LLM_service\app\job_manager.py", line 126, in _process_job
+    raw_text, parsed = await client.generate_questions(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Илья\LLM_service\app\llm_client.py", line 57, in generate_questions
+    return await self._generate_via_chat_completions(request=request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Илья\LLM_service\app\llm_client.py", line 125, in _generate_via_chat_completions
+    response = await self.client.chat.completions.create(**payload)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Илья\AppData\Local\Programs\Python\Python311\Lib\site-packages\openai\resources\chat\completions\completions.py", line 2714, in create
+    return await self._post(
+           ^^^^^^^^^^^^^^^^^
+  File "C:\Users\Илья\AppData\Local\Programs\Python\Python311\Lib\site-packages\openai\_base_client.py", line 1884, in post
+    return await self.request(cast_to, opts, stream=stream, stream_cls=stream_cls)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Илья\AppData\Local\Programs\Python\Python311\Lib\site-packages\openai\_base_client.py", line 1669, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.AuthenticationError: Error code: 401 - {'error': {'message': 'Incorrect API key provided: pza_FOkF************************xLDd. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
