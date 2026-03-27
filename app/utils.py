@@ -7,7 +7,6 @@ from typing import Any
 
 def try_parse_json(text: str) -> dict[str, Any] | None:
     candidates = [text.strip()]
-
     fenced_match = re.search(r'```(?:json)?\s*(.*?)\s*```', text, flags=re.DOTALL | re.IGNORECASE)
     if fenced_match:
         candidates.append(fenced_match.group(1).strip())
@@ -38,6 +37,10 @@ def normalize_message_content(content: Any) -> str:
                 if text:
                     parts.append(str(text))
             else:
-                parts.append(str(item))
+                text = getattr(item, 'text', None)
+                if text:
+                    parts.append(str(text))
+                else:
+                    parts.append(str(item))
         return '\n'.join(parts)
     return str(content)
