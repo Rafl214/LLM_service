@@ -1,0 +1,333 @@
+{
+  "id": "32be7010-c5a4-46a6-8efa-d86927f68315",
+  "status": "finished",
+  "created_at": "2026-03-27T08:28:48.450022",
+  "started_at": "2026-03-27T08:28:48.452547",
+  "finished_at": "2026-03-27T08:28:57.775854",
+  "request": {
+    "topic": "Математический анализ",
+    "number": 10,
+    "question_types": [
+      "single_choice"
+    ]
+  },
+  "files": [],
+  "errors": [],
+  "logs": [
+    "[08:28:48] Задание создано и поставлено в очередь",
+    "[08:28:48] Задание взял worker #0",
+    "[08:28:48] Начата обработка задания",
+    "[08:28:57] Ответ успешно получен и распарсен"
+  ],
+  "result": {
+    "raw_response": "{\"topic\":\"Математический анализ\",\"language\":\"ru\",\"question_count\":10,\"questions\":[{\"id\":\"q1\",\"type\":\"single_choice\",\"difficulty\":\"easy\",\"question\":\"Чему равна производная функции f(x)=x^3?\",\"options\":[{\"id\":\"A\",\"text\":\"3x^2\"},{\"id\":\"B\",\"text\":\"x^2\"},{\"id\":\"C\",\"text\":\"3x\"},{\"id\":\"D\",\"text\":\"x^3\"}],\"correct_answers\":[\"A\"],\"explanation\":\"По правилу дифференцирования степенной функции (x^n)'=nx^(n-1). Для n=3 получаем 3x^2.\",\"source_reference\":\"\",\"metadata\":{}},{\"id\":\"q2\",\"type\":\"single_choice\",\"difficulty\":\"easy\",\"question\":\"Чему равен неопределённый интеграл ∫ 2x dx?\",\"options\":[{\"id\":\"A\",\"text\":\"x^2 + C\"},{\"id\":\"B\",\"text\":\"2x + C\"},{\"id\":\"C\",\"text\":\"x + C\"},{\"id\":\"D\",\"text\":\"x^2\"}],\"correct_answers\":[\"A\"],\"explanation\":\"Первообразная для 2x равна x^2, так как (x^2)'=2x. Неопределённый интеграл записывают с произвольной константой C.\",\"source_reference\":\"\",\"metadata\":{}},{\"id\":\"q3\",\"type\":\"single_choice\",\"difficulty\":\"medium\",\"question\":\"Какой из признаков достаточен для существования предела функции в точке?\",\"options\":[{\"id\":\"A\",\"text\":\"Функция ограничена в окрестности точки\"},{\"id\":\"B\",\"text\":\"Односторонние пределы существуют и равны между собой\"},{\"id\":\"C\",\"text\":\"Функция непрерывна в другой точке\"},{\"id\":\"D\",\"text\":\"Функция имеет производную во всех точках интервала\"}],\"correct_answers\":[\"B\"],\"explanation\":\"Для существования предела в точке достаточно, чтобы существовали левый и правый пределы и были равны друг другу.\",\"source_reference\":\"\",\"metadata\":{}},{\"id\":\"q4\",\"type\":\"single_choice\",\"difficulty\":\"medium\",\"question\":\"Чему равен предел lim(x→0) (sin x)/x?\",\"options\":[{\"id\":\"A\",\"text\":\"0\"},{\"id\":\"B\",\"text\":\"1\"},{\"id\":\"C\",\"text\":\"-1\"},{\"id\":\"D\",\"text\":\"Не существует\"}],\"correct_answers\":[\"B\"],\"explanation\":\"Это один из базовых пределов математического анализа: lim(x→0) sin x / x = 1.\",\"source_reference\":\"\",\"metadata\":{}},{\"id\":\"q5\",\"type\":\"single_choice\",\"difficulty\":\"medium\",\"question\":\"Какая функция является первообразной для f(x)=cos x?\",\"options\":[{\"id\":\"A\",\"text\":\"sin x + C\"},{\"id\":\"B\",\"text\":\"-sin x + C\"},{\"id\":\"C\",\"text\":\"cos x + C\"},{\"id\":\"D\",\"text\":\"-cos x + C\"}],\"correct_answers\":[\"A\"],\"explanation\":\"Так как (sin x)' = cos x, функция sin x является первообразной для cos x.\",\"source_reference\":\"\",\"metadata\":{}},{\"id\":\"q6\",\"type\":\"single_choice\",\"difficulty\":\"medium\",\"question\":\"Чему равен дифференциал функции y=x^2 в точке x?\",\"options\":[{\"id\":\"A\",\"text\":\"dy=2x dx\"},{\"id\":\"B\",\"text\":\"dy=x^2 dx\"},{\"id\":\"C\",\"text\":\"dy=2 dx\"},{\"id\":\"D\",\"text\":\"dy= x dx\"}],\"correct_answers\":[\"A\"],\"explanation\":\"Дифференциал равен dy = y' dx. Для y=x^2 производная равна 2x, значит dy=2x dx.\",\"source_reference\":\"\",\"metadata\":{}},{\"id\":\"q7\",\"type\":\"single_choice\",\"difficulty\":\"hard\",\"question\":\"При каком условии функция f(x) является непрерывной в точке x=a?\",\"options\":[{\"id\":\"A\",\"text\":\"Существует предел f(x) при x→a и он равен f(a)\"},{\"id\":\"B\",\"text\":\"Существует производная f'(a)\"},{\"id\":\"C\",\"text\":\"Функция ограничена в точке a\"},{\"id\":\"D\",\"text\":\"Существует касательная в точке a\"}],\"correct_answers\":[\"A\"],\"explanation\":\"Непрерывность в точке означает, что предел функции в этой точке существует и совпадает со значением функции в точке.\",\"source_reference\":\"\",\"metadata\":{}},{\"id\":\"q8\",\"type\":\"single_choice\",\"difficulty\":\"hard\",\"question\":\"Чему равна производная функции f(x)=e^x?\",\"options\":[{\"id\":\"A\",\"text\":\"e^x\"},{\"id\":\"B\",\"text\":\"xe^(x-1)\"},{\"id\":\"C\",\"text\":\"1/e^x\"},{\"id\":\"D\",\"text\":\"e^(x-1)\"}],\"correct_answers\":[\"A\"],\"explanation\":\"Экспонента e^x является своей собственной производной.\",\"source_reference\":\"\",\"metadata\":{}},{\"id\":\"q9\",\"type\":\"single_choice\",\"difficulty\":\"hard\",\"question\":\"Что можно сказать о знаке второй производной функции, если график функции выпукл вверх на интервале?\",\"options\":[{\"id\":\"A\",\"text\":\"f''(x) > 0\"},{\"id\":\"B\",\"text\":\"f''(x) < 0\"},{\"id\":\"C\",\"text\":\"f''(x) = 0\"},{\"id\":\"D\",\"text\":\"Знак второй производной не связан с выпуклостью\"}],\"correct_answers\":[\"A\"],\"explanation\":\"Если функция выпукла вверх на интервале и twice дифференцируема, то её вторая производная неотрицательна; в стандартной школьной формулировке обычно указывают f''(x)>0 для строгой выпуклости вверх.\",\"source_reference\":\"\",\"metadata\":{}},{\"id\":\"q10\",\"type\":\"single_choice\",\"difficulty\":\"medium\",\"question\":\"Какой из рядов является геометрическим?\",\"options\":[{\"id\":\"A\",\"text\":\"1 + x + x^2 + x^3 + ...\"},{\"id\":\"B\",\"text\":\"1 + 1/2 + 1/3 + 1/4 + ...\"},{\"id\":\"C\",\"text\":\"1 - x + x^2 - x^3 + ...\"},{\"id\":\"D\",\"text\":\"x + x^2/2 + x^3/3 + ...\"}],\"correct_answers\":[\"A\"],\"explanation\":\"Геометрический ряд имеет вид a + aq + aq^2 + ... . Ряд 1 + x + x^2 + x^3 + ... соответствует a=1 и q=x.\",\"source_reference\":\"\",\"metadata\":{}}],\"warnings\":[]}",
+    "parsed_response": {
+      "topic": "Математический анализ",
+      "language": "ru",
+      "question_count": 10,
+      "questions": [
+        {
+          "id": "q1",
+          "type": "single_choice",
+          "difficulty": "easy",
+          "question": "Чему равна производная функции f(x)=x^3?",
+          "options": [
+            {
+              "id": "A",
+              "text": "3x^2"
+            },
+            {
+              "id": "B",
+              "text": "x^2"
+            },
+            {
+              "id": "C",
+              "text": "3x"
+            },
+            {
+              "id": "D",
+              "text": "x^3"
+            }
+          ],
+          "correct_answers": [
+            "A"
+          ],
+          "explanation": "По правилу дифференцирования степенной функции (x^n)'=nx^(n-1). Для n=3 получаем 3x^2.",
+          "source_reference": "",
+          "metadata": {}
+        },
+        {
+          "id": "q2",
+          "type": "single_choice",
+          "difficulty": "easy",
+          "question": "Чему равен неопределённый интеграл ∫ 2x dx?",
+          "options": [
+            {
+              "id": "A",
+              "text": "x^2 + C"
+            },
+            {
+              "id": "B",
+              "text": "2x + C"
+            },
+            {
+              "id": "C",
+              "text": "x + C"
+            },
+            {
+              "id": "D",
+              "text": "x^2"
+            }
+          ],
+          "correct_answers": [
+            "A"
+          ],
+          "explanation": "Первообразная для 2x равна x^2, так как (x^2)'=2x. Неопределённый интеграл записывают с произвольной константой C.",
+          "source_reference": "",
+          "metadata": {}
+        },
+        {
+          "id": "q3",
+          "type": "single_choice",
+          "difficulty": "medium",
+          "question": "Какой из признаков достаточен для существования предела функции в точке?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Функция ограничена в окрестности точки"
+            },
+            {
+              "id": "B",
+              "text": "Односторонние пределы существуют и равны между собой"
+            },
+            {
+              "id": "C",
+              "text": "Функция непрерывна в другой точке"
+            },
+            {
+              "id": "D",
+              "text": "Функция имеет производную во всех точках интервала"
+            }
+          ],
+          "correct_answers": [
+            "B"
+          ],
+          "explanation": "Для существования предела в точке достаточно, чтобы существовали левый и правый пределы и были равны друг другу.",
+          "source_reference": "",
+          "metadata": {}
+        },
+        {
+          "id": "q4",
+          "type": "single_choice",
+          "difficulty": "medium",
+          "question": "Чему равен предел lim(x→0) (sin x)/x?",
+          "options": [
+            {
+              "id": "A",
+              "text": "0"
+            },
+            {
+              "id": "B",
+              "text": "1"
+            },
+            {
+              "id": "C",
+              "text": "-1"
+            },
+            {
+              "id": "D",
+              "text": "Не существует"
+            }
+          ],
+          "correct_answers": [
+            "B"
+          ],
+          "explanation": "Это один из базовых пределов математического анализа: lim(x→0) sin x / x = 1.",
+          "source_reference": "",
+          "metadata": {}
+        },
+        {
+          "id": "q5",
+          "type": "single_choice",
+          "difficulty": "medium",
+          "question": "Какая функция является первообразной для f(x)=cos x?",
+          "options": [
+            {
+              "id": "A",
+              "text": "sin x + C"
+            },
+            {
+              "id": "B",
+              "text": "-sin x + C"
+            },
+            {
+              "id": "C",
+              "text": "cos x + C"
+            },
+            {
+              "id": "D",
+              "text": "-cos x + C"
+            }
+          ],
+          "correct_answers": [
+            "A"
+          ],
+          "explanation": "Так как (sin x)' = cos x, функция sin x является первообразной для cos x.",
+          "source_reference": "",
+          "metadata": {}
+        },
+        {
+          "id": "q6",
+          "type": "single_choice",
+          "difficulty": "medium",
+          "question": "Чему равен дифференциал функции y=x^2 в точке x?",
+          "options": [
+            {
+              "id": "A",
+              "text": "dy=2x dx"
+            },
+            {
+              "id": "B",
+              "text": "dy=x^2 dx"
+            },
+            {
+              "id": "C",
+              "text": "dy=2 dx"
+            },
+            {
+              "id": "D",
+              "text": "dy= x dx"
+            }
+          ],
+          "correct_answers": [
+            "A"
+          ],
+          "explanation": "Дифференциал равен dy = y' dx. Для y=x^2 производная равна 2x, значит dy=2x dx.",
+          "source_reference": "",
+          "metadata": {}
+        },
+        {
+          "id": "q7",
+          "type": "single_choice",
+          "difficulty": "hard",
+          "question": "При каком условии функция f(x) является непрерывной в точке x=a?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Существует предел f(x) при x→a и он равен f(a)"
+            },
+            {
+              "id": "B",
+              "text": "Существует производная f'(a)"
+            },
+            {
+              "id": "C",
+              "text": "Функция ограничена в точке a"
+            },
+            {
+              "id": "D",
+              "text": "Существует касательная в точке a"
+            }
+          ],
+          "correct_answers": [
+            "A"
+          ],
+          "explanation": "Непрерывность в точке означает, что предел функции в этой точке существует и совпадает со значением функции в точке.",
+          "source_reference": "",
+          "metadata": {}
+        },
+        {
+          "id": "q8",
+          "type": "single_choice",
+          "difficulty": "hard",
+          "question": "Чему равна производная функции f(x)=e^x?",
+          "options": [
+            {
+              "id": "A",
+              "text": "e^x"
+            },
+            {
+              "id": "B",
+              "text": "xe^(x-1)"
+            },
+            {
+              "id": "C",
+              "text": "1/e^x"
+            },
+            {
+              "id": "D",
+              "text": "e^(x-1)"
+            }
+          ],
+          "correct_answers": [
+            "A"
+          ],
+          "explanation": "Экспонента e^x является своей собственной производной.",
+          "source_reference": "",
+          "metadata": {}
+        },
+        {
+          "id": "q9",
+          "type": "single_choice",
+          "difficulty": "hard",
+          "question": "Что можно сказать о знаке второй производной функции, если график функции выпукл вверх на интервале?",
+          "options": [
+            {
+              "id": "A",
+              "text": "f''(x) > 0"
+            },
+            {
+              "id": "B",
+              "text": "f''(x) < 0"
+            },
+            {
+              "id": "C",
+              "text": "f''(x) = 0"
+            },
+            {
+              "id": "D",
+              "text": "Знак второй производной не связан с выпуклостью"
+            }
+          ],
+          "correct_answers": [
+            "A"
+          ],
+          "explanation": "Если функция выпукла вверх на интервале и twice дифференцируема, то её вторая производная неотрицательна; в стандартной школьной формулировке обычно указывают f''(x)>0 для строгой выпуклости вверх.",
+          "source_reference": "",
+          "metadata": {}
+        },
+        {
+          "id": "q10",
+          "type": "single_choice",
+          "difficulty": "medium",
+          "question": "Какой из рядов является геометрическим?",
+          "options": [
+            {
+              "id": "A",
+              "text": "1 + x + x^2 + x^3 + ..."
+            },
+            {
+              "id": "B",
+              "text": "1 + 1/2 + 1/3 + 1/4 + ..."
+            },
+            {
+              "id": "C",
+              "text": "1 - x + x^2 - x^3 + ..."
+            },
+            {
+              "id": "D",
+              "text": "x + x^2/2 + x^3/3 + ..."
+            }
+          ],
+          "correct_answers": [
+            "A"
+          ],
+          "explanation": "Геометрический ряд имеет вид a + aq + aq^2 + ... . Ряд 1 + x + x^2 + x^3 + ... соответствует a=1 и q=x.",
+          "source_reference": "",
+          "metadata": {}
+        }
+      ],
+      "warnings": []
+    }
+  }
+}

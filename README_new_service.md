@@ -218,9 +218,7 @@ Legacy-эндпоинт для обратной совместимости.
 - `single_choice`
 - `multiple_choice`
 - `true_false`
-- `short_answer`
-- `matching`
-- `ordering`
+- `100k1`
 
 Пример:
 
